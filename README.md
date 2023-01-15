@@ -53,3 +53,8 @@
     
 
 ```
+
+## H2 Commands that are required to run the script
+* docker start iths-mysql
+* docker exec -i iths-mysql mysql -uroot -proot < normalisering.sql
+
