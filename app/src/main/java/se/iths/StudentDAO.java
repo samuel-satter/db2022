@@ -9,7 +9,7 @@ public class StudentDAO implements CRUD<Student>{
     }
 
     @Override
-    public Student FindById() {
+    public Student findById() {
         return null;
     }
 

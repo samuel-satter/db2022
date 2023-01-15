@@ -10,7 +10,7 @@ public class SchoolDAO implements CRUD<School>{
     }
 
     @Override
-    public School FindById() {
+    public School findById() {
         return null;
     }
 

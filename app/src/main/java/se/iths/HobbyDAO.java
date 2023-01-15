@@ -10,7 +10,7 @@ public class HobbyDAO implements CRUD<Hobby>{
     }
 
     @Override
-    public Hobby FindById() {
+    public Hobby findById() {
         return null;
     }
 
