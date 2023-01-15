@@ -9,7 +9,7 @@ public class Student {
     String lastName;
 
 
-    public Student(int StudentId, String firstName, String lastName){
+    public Student(int StudentId, String firstName, String lastName) {
         this.id = StudentId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -19,11 +19,11 @@ public class Student {
         return id;
     }
 
-    public String getFirstName(){
+    public String getFirstName() {
         return firstName;
     }
 
-    public String getLastName(){
+    public String getLastName() {
         return lastName;
     }
 
@@ -31,4 +31,12 @@ public class Student {
         this.firstName = firstName;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }
