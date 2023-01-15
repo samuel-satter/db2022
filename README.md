@@ -55,7 +55,10 @@
 ```
 
 ## Commands that are required to run the script
+* curl -L  https://gist.github.com/miwashiab/d891a64c7f73f4c8c3b5cfee2b3de776/raw/denormalized-data.csv -o denormalized-data.csv
+* //denormalized-data.csv goes in// var/lib/mysql-files/denormaized-data.csv 
 * curl -L https://raw.githubusercontent.com/samuel-satter/db2022/main/normalisering.sql -o normalisering.sql
 * docker start iths-mysql
-* docker exec -i iths-mysql mysql -uroot -proot < normalisering.sql
+* docker exec -i iths-mysql mysql -uiths -piths < normalisering.sql
+* gradle check
 
