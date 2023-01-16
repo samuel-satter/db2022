@@ -60,5 +60,6 @@
 * curl -L https://raw.githubusercontent.com/samuel-satter/db2022/main/normalisering.sql -o normalisering.sql
 * docker start iths-mysql
 * docker exec -i iths-mysql mysql -uiths -piths < normalisering.sql
-* gradle check
+* ./gradlew cleanTest
+* ./gradlew test
 
